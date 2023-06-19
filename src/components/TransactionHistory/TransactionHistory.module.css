@@ -8,44 +8,43 @@
 }
 
 table {
-    table-layout: fixed;
-    width: 800px;
-    border-collapse: collapse;
-    background-color: cornsilk;
-  }
-
-tbody tr:nth-child(odd) {
-    background-color: #fff;
-  }
-  
-tbody tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  
-thead {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 600;
-    color: cornsilk;
-    text-align: center;
-    background-color: #401d35;
+  table-layout: fixed;
+  width: 800px;
+  border-collapse: collapse;
+  background-color: cornsilk;
 }
 
-th, td {
-    padding: 15px;
-    border: 1px solid grey;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-  }
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
 
-  .transaction_type {
-    padding-left: 100px;
-    text-align: left;
-  }
+tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
-  .transaction_type:first-letter {
-    text-transform: uppercase;
-  }
+thead {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  color: cornsilk;
+  text-align: center;
+  background-color: #401d35;
+}
 
+th,
+td {
+  padding: 15px;
+  border: 1px solid grey;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
 
+.transaction_type {
+  padding-left: 100px;
+  text-align: left;
+}
+
+.transaction_type:first-letter {
+  text-transform: uppercase;
+}

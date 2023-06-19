@@ -10,11 +10,12 @@
 }
 
 .title {
-    text-transform: uppercase;
-    font-size: 52px;
-    font-weight: 700;
-    text-align: center;
-    text-shadow: 1px 1px 1px #000;
+  text-transform: uppercase;
+  font-size: 52px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .stat_list {
