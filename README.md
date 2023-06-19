@@ -1,5 +1,3 @@
-https://TataUA.github.io/goit-react-hw-01-components/
-
 # Критерии приема
 
 Используй этот [шаблон React-проекта](https://github.com/goitacademy/react-homework-template#readme) как стартовую точку своего приложения.
